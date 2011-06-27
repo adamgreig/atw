@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<title>atw geocoder</title>
+
+<p>List of cities (one per line):</p>
+<textarea rows="10" cols="80" id="input"></textarea><br />
+<input type="submit" value="Geocode" id="submit" /><br />
+<pre id="output" style="background: #ddd;">
+</pre>
+
+<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+<script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js">
+</script>
+
+<script>
+    var cities = [];
+    var geocoder = new google.maps.Geocoder();
+
+    function update_output() {
+        $('#output').html('');
+        var output = '[\n';
+        $(cities).each(function(index, element) {
+            output += '  {\n';
+            output += '    "name": "' + element.name + '",\n';
+            output += '    "position": [' + element.position.lat();
+            output += ', ' + element.position.lng() + ']\n';
+            output += '  }';
+            if(index != (cities.length - 1)) {
+                output += ',';
+            }
+            output += '\n';
+        });
+        output += ']\n';
+        $('#output').html(output);
+    };
+
+    function geocode(index, address) {
+        console.log("Geocoding ("+index+","+address+")");
+        geocoder.geocode({'address': address}, function(result, stat) {
+            if(stat == google.maps.GeocoderStatus.OK) {
+                var latlng = result[0].geometry['location'];
+                cities[index] = {'name': address, 'position': latlng};
+            } else {
+                console.log("Error geocoding: " + stat);
+            }
+            update_output();
+        });
+    };
+
+    $('#submit').click(function(e) {
+        var text = $('#input').val();
+        var lines = text.split('\n');
+        $(lines).each(function(index, city) {
+            setTimeout("geocode("+index+", '"+city+"');", index * 1000);
+        });
+    });
+    
+    $.getJSON("cities.json", function(data) {
+        var list = "";
+        $(data).each(function(index, element) {
+            list += element.name;
+            if(index != (data.length - 1)) {
+                list += '\n';
+            }
+        });
+        $('#input').val(list);
+    });
+</script>
