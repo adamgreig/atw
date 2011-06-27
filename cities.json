@@ -55,11 +55,6 @@
     "position": "interpolate"
   },
   {
-    "name": "Birobidzhan, Russia",
-    "type": "point",
-    "position": [48.8006708, 132.89913939999997]
-  },
-  {
     "name": "Khabarovsk, Russia",
     "type": "point",
     "position": [48.476719, 135.09407050000004]
