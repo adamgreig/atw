@@ -1,130 +1,202 @@
 [
   {
     "name": "London, UK",
+    "type": "city",
     "position": [51.5001524, -0.12623619999999391]
   },
   {
     "name": "Brussels, Belgium",
+    "type": "point",
     "position": [50.8503396, 4.351710300000036]
   },
   {
     "name": "Prague, Czech Republic",
+    "type": "point",
     "position": [50.0878114, 14.420459800000003]
   },
   {
     "name": "Krakow, Poland",
+    "type": "point",
     "position": [50.06465009999999, 19.94497990000002]
   },
   {
     "name": "Kiev, Ukraine",
+    "type": "point",
     "position": [50.4501, 30.523400000000038]
   },
   {
+    "name": "Mongol Rally",
+    "type": "car",
+    "position": "interpolate"
+  },
+  {
     "name": "Omsk, Russia",
+    "type": "point",
     "position": [54.9709016, 73.39375319999999]
   },
   {
     "name": "Ulan-Batoor, Mongolia",
+    "type": "city",
     "position": [47.921378, 106.90553999999997]
   },
   {
     "name": "Ulan-Ude, Russia",
+    "type": "point",
     "position": [51.8408393, 107.60809310000002]
   },
   {
     "name": "Chita, Russia",
+    "type": "point",
     "position": [52.0454291, 113.49862689999998]
   },
   {
+    "name": "Trans-Siberian Railway",
+    "type": "train",
+    "position": "interpolate"
+  },
+  {
     "name": "Birobidzhan, Russia",
+    "type": "point",
     "position": [48.8006708, 132.89913939999997]
   },
   {
-    "name": "Amur, Russia",
-    "position": [50.4551545, 133.69736490000003]
-  },
-  {
     "name": "Khabarovsk, Russia",
+    "type": "point",
     "position": [48.476719, 135.09407050000004]
   },
   {
     "name": "Vladivostok, Russia",
+    "type": "city",
     "position": [43.1306915, 131.92382799999996]
   },
   {
+    "name": "Ferry",
+    "type": "boat",
+    "position": "interpolate" 
+  },
+  {
     "name": "Fushiki, Japan",
+    "type": "city",
     "position": [36.791995, 137.057949]
   },
   {
-    "name": "Aomori, Japan",
-    "position": [40.822072, 140.74736469999993]
-  },
-  {
     "name": "Tsuruoka, Japan",
+    "type": "point",
     "position": [38.7271972, 139.82673069999998]
   },
   {
+    "name": "Aomori, Japan",
+    "type": "point",
+    "position": [40.822072, 140.74736469999993]
+  },
+  {
+    "name": "Sendai, Japan",
+    "type": "point",
+    "position": [38.268215, 140.8693558]
+  },
+  {
+    "name": "Japan Rail",
+    "type": "train",
+    "position": "interpolate"
+  },
+  {
     "name": "Kyoto, Japan",
+    "type": "point",
     "position": [35.0116363, 135.76802939999993]
   },
   {
     "name": "Hiroshima, Japan",
+    "type": "point",
     "position": [34.3852029, 132.45529269999997]
   },
   {
     "name": "Osaka, Japan",
+    "type": "point",
     "position": [34.6937378, 135.50216509999996]
   },
   {
     "name": "Tokyo, Japan",
+    "type": "city",
     "position": [35.6894875, 139.69170639999993]
   },
   {
+    "name": "Boat",
+    "type": "boat",
+    "position": [34.8708609, -169.275989]
+  },
+  {
     "name": "Los Angeles, USA",
+    "type": "city",
     "position": [34.0522342, -118.2436849]
   },
   {
     "name": "San Francisco, USA",
+    "type": "point",
     "position": [37.7749295, -122.41941550000001]
   },
   {
+    "name": "Car",
+    "type": "car",
+    "position": "interpolate"
+  },
+  {
     "name": "Seattle, USA",
+    "type": "point",
     "position": [47.6062095, -122.3320708]
   },
   {
     "name": "Vancouver, Canada",
+    "type": "city",
     "position": [49.261226, -123.1139268]
   },
   {
     "name": "Edmonton, Canada",
+    "type": "point",
     "position": [53.543564, -113.490452]
   },
   {
-    "name": "Saskatoon, Canada",
-    "position": [52.13437, -106.64765599999998]
+    "name": "Train",
+    "type": "train",
+    "position": "interpolate"
   },
   {
     "name": "Winnipeg, Canada",
+    "type": "point",
     "position": [49.886083, -97.15292099999999]
   },
   {
     "name": "Toronto, Canada",
+    "type": "city",
     "position": [43.653524, -79.3839069]
   },
   {
     "name": "New York, USA",
+    "type": "point",
     "position": [40.7143528, -74.0059731]
   },
   {
+    "name": "Car",
+    "type": "car",
+    "position": "interpolate"
+  },
+  {
     "name": "Washington DC, USA",
+    "type": "point",
     "position": [38.8951118, -77.0363658]
   },
   {
     "name": "Orlando, USA",
+    "type": "city",
     "position": [28.5383355, -81.37923649999999]
   },
   {
+    "name": "Boat",
+    "type": "boat",
+    "position": "interpolate"
+  },
+  {
     "name": "London, UK",
+    "type": "city",
     "position": [51.5001524, -0.12623619999999391]
   }
 ]
