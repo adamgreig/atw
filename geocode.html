@@ -59,7 +59,9 @@
     $.getJSON("cities.json", function(data) {
         var list = "";
         $(data).each(function(index, element) {
-            list += element.name;
+            if(element.type == "city" || element.type == "point") {
+                list += element.name;
+            }
             if(index != (data.length - 1)) {
                 list += '\n';
             }
