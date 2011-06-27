@@ -61,9 +61,9 @@
         $(data).each(function(index, element) {
             if(element.type == "city" || element.type == "point") {
                 list += element.name;
-            }
-            if(index != (data.length - 1)) {
-                list += '\n';
+                if(index != (data.length - 1)) {
+                    list += '\n';
+                }
             }
         });
         $('#input').val(list);
