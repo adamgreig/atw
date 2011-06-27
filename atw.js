@@ -5,6 +5,7 @@
  */
 
 var map;
+var info_window;
 
 function setup_map(centre) {
     var latlng = new google.maps.LatLng(centre[0], centre[1]);
@@ -14,6 +15,7 @@ function setup_map(centre) {
         "mapTypeId": google.maps.MapTypeId.ROADMAP
     };
     map = new google.maps.Map($('#map')[0], opts);
+    info_window = new google.maps.InfoWindow({});
 }
 
 function plot_cities(cities) {
@@ -40,6 +42,15 @@ function plot_cities(cities) {
             "map": map,
             "title": city.name,
             "icon": icon
+        });
+        google.maps.event.addListener(city.marker, 'click', function(e) {
+            var info = "<strong>"+city.name+"</strong>";
+            if(city.info) {
+                info += "<br />"+city.info;
+            }
+            info_window.close();
+            info_window.setContent(info);
+            info_window.open(map, this);
         });
     });
     var polyline = new google.maps.Polyline({

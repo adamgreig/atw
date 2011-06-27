@@ -27,6 +27,7 @@
   {
     "name": "Mongol Rally",
     "type": "car",
+    "info": "approximately 5 weeks",
     "position": "interpolate"
   },
   {
@@ -35,7 +36,7 @@
     "position": [54.9709016, 73.39375319999999]
   },
   {
-    "name": "Ulan-Batoor, Mongolia",
+    "name": "Ulan-Bator, Mongolia",
     "type": "city",
     "position": [47.921378, 106.90553999999997]
   },
@@ -52,6 +53,7 @@
   {
     "name": "Trans-Siberian Railway",
     "type": "train",
+    "info": "about 3 days",
     "position": "interpolate"
   },
   {
@@ -65,8 +67,9 @@
     "position": [43.1306915, 131.92382799999996]
   },
   {
-    "name": "Ferry",
+    "name": "Ferry to Japan",
     "type": "boat",
+    "info": "36 hours",
     "position": "interpolate" 
   },
   {
@@ -92,6 +95,7 @@
   {
     "name": "Japan Rail",
     "type": "train",
+    "info": "3-week JR pass",
     "position": "interpolate"
   },
   {
@@ -115,8 +119,9 @@
     "position": [35.6894875, 139.69170639999993]
   },
   {
-    "name": "Boat",
+    "name": "Boat over the Pacific",
     "type": "boat",
+    "info": "actually from china, about 16 days",
     "position": [34.8708609, -169.275989]
   },
   {
@@ -130,8 +135,9 @@
     "position": [37.7749295, -122.41941550000001]
   },
   {
-    "name": "Car",
+    "name": "Car up the West Coast",
     "type": "car",
+    "info": "Or bus?",
     "position": "interpolate"
   },
   {
@@ -150,8 +156,9 @@
     "position": [53.543564, -113.490452]
   },
   {
-    "name": "Train",
+    "name": "Train across Canada",
     "type": "train",
+    "info": "about 4 days",
     "position": "interpolate"
   },
   {
@@ -170,8 +177,9 @@
     "position": [40.7143528, -74.0059731]
   },
   {
-    "name": "Car",
+    "name": "Car down the East Coast",
     "type": "car",
+    "info": "Or bus?",
     "position": "interpolate"
   },
   {
@@ -185,8 +193,9 @@
     "position": [28.5383355, -81.37923649999999]
   },
   {
-    "name": "Boat",
+    "name": "Boat over the Atlantic",
     "type": "boat",
+    "info": "about 16 days, to Europe",
     "position": "interpolate"
   },
   {
