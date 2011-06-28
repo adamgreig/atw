@@ -88,30 +88,15 @@
     "position": [40.822072, 140.74736469999993]
   },
   {
-    "name": "Sendai, Japan",
-    "type": "point",
-    "position": [38.268215, 140.8693558]
-  },
-  {
     "name": "Japan Rail",
     "type": "train",
     "info": "3-week JR pass",
     "position": "interpolate"
   },
   {
-    "name": "Kyoto, Japan",
+    "name": "Sendai, Japan",
     "type": "point",
-    "position": [35.0116363, 135.76802939999993]
-  },
-  {
-    "name": "Hiroshima, Japan",
-    "type": "point",
-    "position": [34.3852029, 132.45529269999997]
-  },
-  {
-    "name": "Osaka, Japan",
-    "type": "point",
-    "position": [34.6937378, 135.50216509999996]
+    "position": [38.268215, 140.8693558]
   },
   {
     "name": "Tokyo, Japan",
@@ -119,9 +104,31 @@
     "position": [35.6894875, 139.69170639999993]
   },
   {
+    "name": "Kyoto, Japan",
+    "type": "point",
+    "position": [35.0116363, 135.76802939999993]
+  },
+  {
+    "name": "Osaka, Japan",
+    "type": "point",
+    "position": [34.6937378, 135.50216509999996]
+  },
+  {
+    "name": "Ferry to China",
+    "type": "boat",
+    "info": "May not actually leave from Osaka",
+    "position": "interpolate"
+  },
+  {
+    "name": "Shanghai, China",
+    "type": "city",
+    "info": "just a brief stop I guess",
+    "position": [31.230393, 121.473704]
+  },
+  {
     "name": "Boat over the Pacific",
     "type": "boat",
-    "info": "actually from china, about 16 days",
+    "info": "about 16 days",
     "position": [34.8708609, -169.275989]
   },
   {
