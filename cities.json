@@ -137,15 +137,14 @@
     "position": [34.0522342, -118.2436849]
   },
   {
+    "name": "Las Vegas, USA",
+    "type": "point",
+    "position": [36.114646, -115.17281600000001]
+  },
+  {
     "name": "San Francisco, USA",
     "type": "point",
     "position": [37.7749295, -122.41941550000001]
-  },
-  {
-    "name": "Car up the West Coast",
-    "type": "car",
-    "info": "Or bus?",
-    "position": "interpolate"
   },
   {
     "name": "Seattle, USA",
@@ -154,7 +153,7 @@
   },
   {
     "name": "Vancouver, Canada",
-    "type": "city",
+    "type": "point",
     "position": [49.261226, -123.1139268]
   },
   {
@@ -163,31 +162,25 @@
     "position": [53.543564, -113.490452]
   },
   {
-    "name": "Train across Canada",
-    "type": "train",
-    "info": "about 4 days",
-    "position": "interpolate"
-  },
-  {
     "name": "Winnipeg, Canada",
     "type": "point",
     "position": [49.886083, -97.15292099999999]
   },
   {
+    "name": "Greyhound Bus",
+    "type": "bus",
+    "info": "Greyhound Bus Pass, 15/30 days",
+    "position": "interpolate"
+  },
+  {
     "name": "Toronto, Canada",
-    "type": "city",
+    "type": "point",
     "position": [43.653524, -79.3839069]
   },
   {
     "name": "New York, USA",
     "type": "point",
     "position": [40.7143528, -74.0059731]
-  },
-  {
-    "name": "Car down the East Coast",
-    "type": "car",
-    "info": "Or bus?",
-    "position": "interpolate"
   },
   {
     "name": "Washington DC, USA",
